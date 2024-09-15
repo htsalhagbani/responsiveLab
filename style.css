@@ -83,7 +83,8 @@
     color: white;
 }
 
-@media (width: 375px) {
+@media (min-width: 375px) and (min-height: 812px)
+    {
 
     .continer h1{
         font-size: 1rem;
@@ -117,7 +118,6 @@
     }
 
 }
-
 
 @media (width: 412px ){
 
@@ -169,7 +169,16 @@
         align-items: center;
         flex-wrap: wrap; /* Ensure wrapping on smaller screens */
     }
-    
+    .btn{
+        font-size: 3rem;
+    }
+    .continer h1{
+        font-size: 3rem;
+    }
+
+    .continer input{
+        height: 4vh;
+    }
     .smBox {
         width: 40vw;
         height: 40vh;
@@ -243,5 +252,7 @@
     }
 
 }
+
+
 
 
